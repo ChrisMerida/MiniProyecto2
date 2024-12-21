@@ -6,7 +6,7 @@ stages:
       - scripts/create_and_base_pipeline.py
     outs:
       - data/processed/loan_data_prepared.csv
-    wdir: ml-pipeline
+    wdir: .
 
   configure_and_fit_pipeline:
     cmd: python scripts/configure_and_fit_pipeline.py
@@ -14,7 +14,6 @@ stages:
       - data/raw/loan_data.csv
     outs:
       - artifacts/fitted_pipeline.pkl
-    wdir: ml-pipeline
 
   predict_pipeline:
     cmd: python scripts/predict_pipeline.py
@@ -23,4 +22,3 @@ stages:
       - data/raw/loan_data.csv
     outs:
       - data/predictions/2024-12-20-20-56-04.csv
-    wdir: ml-pipeline
