@@ -85,6 +85,10 @@ data/*
 data/raw/*
 !data/raw/*.dvc
 
+# Excluir los archivos generados por DVC en las predicciones, pero permitir los archivos .dvc
+/predictions/*
+!/predictions/*.dvc
+
 # Mac OS-specific storage files
 .DS_Store
 

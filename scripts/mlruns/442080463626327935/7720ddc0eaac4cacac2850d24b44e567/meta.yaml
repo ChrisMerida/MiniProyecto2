@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/chrismerida/Documents/U/Maestria/Product%20Development/Proyectos/MiniProyecto2/ml-pipeline/scripts/mlruns/442080463626327935/7720ddc0eaac4cacac2850d24b44e567/artifacts
+end_time: 1734749747960
+entry_point_name: ''
+experiment_id: '442080463626327935'
+lifecycle_stage: active
+run_id: 7720ddc0eaac4cacac2850d24b44e567
+run_name: Final Pipeline
+run_uuid: 7720ddc0eaac4cacac2850d24b44e567
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734749743952
+status: 3
+tags: []
+user_id: chrismerida

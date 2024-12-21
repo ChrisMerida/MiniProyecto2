@@ -1,0 +1,5 @@
+outs:
+- md5: ee397110c746cf2db6a15ddbb1d6f3d0
+  size: 314826
+  hash: md5
+  path: fitted_pipeline.pkl

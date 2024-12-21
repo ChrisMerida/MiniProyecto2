@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/chrismerida/Documents/U/Maestria/Product%20Development/Proyectos/MiniProyecto2/ml-pipeline/scripts/mlruns/442080463626327935/13ede4f3a78f43bf88709317add7209b/artifacts
+end_time: 1734749730492
+entry_point_name: ''
+experiment_id: '442080463626327935'
+lifecycle_stage: active
+run_id: 13ede4f3a78f43bf88709317add7209b
+run_name: RandomForestClassifier
+run_uuid: 13ede4f3a78f43bf88709317add7209b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734749719404
+status: 3
+tags: []
+user_id: chrismerida
