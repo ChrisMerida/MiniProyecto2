@@ -9,7 +9,7 @@ stages:
   configure_and_fit_pipeline:
     cmd: python configure_and_fit_pipeline.py
     deps:
-      - data/processed/loan_data_prepared.csv
+      - data/raw/loan_data.csv
     outs:
       - models/fitted_pipeline.pkl
 
@@ -17,6 +17,6 @@ stages:
     cmd: python predict_pipeline.py
     deps:
       - models/fitted_pipeline.pkl
-      - data/test_data.csv
+      - data/raw/loan_data.csv
     outs:
       - data/predictions/2024-12-20-20-56-04.csv
