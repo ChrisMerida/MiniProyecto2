@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/chrismerida/Documents/U/Maestria/Product%20Development/Proyectos/MiniProyecto2/ml-pipeline/scripts/mlruns/442080463626327935/97b37c0c03a747179989998fb2e6a634/artifacts
+end_time: 1734749719402
+entry_point_name: ''
+experiment_id: '442080463626327935'
+lifecycle_stage: active
+run_id: 97b37c0c03a747179989998fb2e6a634
+run_name: LogisticRegression
+run_uuid: 97b37c0c03a747179989998fb2e6a634
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734749718404
+status: 3
+tags: []
+user_id: chrismerida
