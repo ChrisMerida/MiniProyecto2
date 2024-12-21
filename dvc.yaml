@@ -1,6 +1,6 @@
 stages:
   create_features_and_base_pipeline:
-    cmd: python scripts/create__and_base_pipeline.py
+    cmd: python scripts/create_and_base_pipeline.py
     deps:
       - data/raw/loan_data.csv
     outs:
