@@ -84,8 +84,11 @@ data/*
 # Excluir el directorio data/raw de seguimiento de Git, pero seguir permitiendo los archivos .dvc
 data/raw/*
 !data/raw/*.dvc
-!data/predictios/*
-!data/predictios/*.dvc
+
+# Excluir todo dentro de predictions, excepto los archivos .dvc
+data/predictions/*
+!data/predictions/*.dvc
+
 
 # Mac OS-specific storage files
 .DS_Store
