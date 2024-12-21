@@ -3,7 +3,7 @@ stages:
     cmd: python scripts/create_and_base_pipeline.py
     deps:
       - data/raw/loan_data.csv
-      - scripts/create_and_base_pipeline.py
+      - ./scripts/create_and_base_pipeline.py
     outs:
       - data/processed/loan_data_prepared.csv
     wdir: .
