@@ -1,20 +1,20 @@
 stages:
   create_features_and_base_pipeline:
-    cmd: python create_features_and_base_pipeline.py
+    cmd: python scripts/create_features_and_base_pipeline.py
     deps:
       - data/raw/loan_data.csv
     outs:
       - data/processed/loan_data_prepared.csv
 
   configure_and_fit_pipeline:
-    cmd: python configure_and_fit_pipeline.py
+    cmd: python scripts/configure_and_fit_pipeline.py
     deps:
       - data/raw/loan_data.csv
     outs:
       - artifacts/fitted_pipeline.pkl
 
   predict_pipeline:
-    cmd: python predict_pipeline.py
+    cmd: python scripts/predict_pipeline.py
     deps:
       - artifacts/fitted_pipeline.pkl
       - data/raw/loan_data.csv
