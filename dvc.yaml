@@ -11,12 +11,12 @@ stages:
     deps:
       - data/raw/loan_data.csv
     outs:
-      - models/fitted_pipeline.pkl
+      - artifacts/fitted_pipeline.pkl
 
   predict_pipeline:
     cmd: python predict_pipeline.py
     deps:
-      - models/fitted_pipeline.pkl
+      - artifacts/fitted_pipeline.pkl
       - data/raw/loan_data.csv
     outs:
       - data/predictions/2024-12-20-20-56-04.csv
