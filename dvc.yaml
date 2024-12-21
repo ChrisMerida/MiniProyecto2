@@ -2,7 +2,7 @@ stages:
   create_and_base_pipeline:
     cmd: python scripts/create_and_base_pipeline.py
     deps:
-      - ml-pipeline/data/raw/loan_data.csv
+      - data/raw/loan_data.csv
       - scripts/create_and_base_pipeline.py
     outs:
       - data/processed/loan_data_prepared.csv
