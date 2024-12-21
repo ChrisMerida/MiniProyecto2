@@ -1,0 +1,22 @@
+stages:
+  create_features_and_base_pipeline:
+    cmd: python create_features_and_base_pipeline.py
+    deps:
+      - data/raw_data.csv
+    outs:
+      - data/processed_features.csv
+
+  configure_and_fit_pipeline:
+    cmd: python configure_and_fit_pipeline.py
+    deps:
+      - data/processed_features.csv
+    outs:
+      - models/trained_model.pkl
+
+  predict_pipeline:
+    cmd: python predict_pipeline.py
+    deps:
+      - models/trained_model.pkl
+      - data/test_data.csv
+    outs:
+      - data/predictions/2024-12-20-20-56-04.csv
